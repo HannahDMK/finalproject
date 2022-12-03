@@ -68,7 +68,33 @@ table {
     line-height: 1.30;
     font-family: 'Comfortaa', cursive;
 }
+/*-----------SKIP LINK----------------*/
+#skip {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    }
+        
+    #skip a:focus {
+    position:static;
+    width:auto;
+    height:auto;
+    }
 
-header {
-    background-image: url(“images/hero.jpg”);
+/*-----------BODY STYLES------------*/
+header img {
+    width: 100vw;
+    position: relative;
+}
+
+header nav {
+    position: absolute;
+
+}
+
+.hero {
+    background-image: url('merrill_hannah.html/image/hero.jpg');
 }
