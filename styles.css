@@ -147,16 +147,97 @@ table {
     margin-top: 1em;
     margin-bottom: .5em;
   }
+  main h3 {
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+  }
   main p {
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 80ch;
-    background-color: #d74452;
+    font-weight: 300;
+  }
+  main span {
+    font-size: 1.5em;
   }
 
-  /*-------- BOOKS FLEXBOX-------*/
+  /*-------- BOOKS SECTION-------*/
 
+  #flex1container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  .flex1child {
+    flex: 1 160px;
+    padding: 1em;
+
+}
+
+.flexchild p {
+    max-width: 8ch;
+}
   
 
+  /*-------- EVENTS SECTION-------*/
+  #eventsbackground {
+    background-color: var(--beige);
+  }
 
+  #flex2container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  .flex2child {
+    flex: 1  250px;
+    padding: 1em;
+    text-align: left;
+}
+#eventsbackground h2 {
+    padding-top: 1em;
+}
+button {
+    padding: 15px;
+    background-color: var(--teal);
+    box-shadow: 2px 2px 2px var(--orange);
+    border-radius: 25px;
+    margin-top: 1em;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    border: 3px solid white;
+}
+address {
+    margin-top: 1em;
+}
+
+/*----------- MEWSLETTER SECTION----------*/
+.flex3container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.flex3child {
+  padding: 1em;
+}
+input {
+    padding: .5em;
+}
+input[type="submit"] {
+    margin: 1em;
+    padding: 1em;
+    background-color: var(--teal);
+    color: white;
+    box-shadow: 2px 2px 2px var(--orange);
+    border-radius: 25px;
+    width: 200px;
+}
